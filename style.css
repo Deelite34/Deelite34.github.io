@@ -1,0 +1,77 @@
+/* Box sizing na border box oraz usuwanie domyślnych odstępów */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Outfit;
+  font-size:15px;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+:root{  
+  --bg-content: hsl(0, 0%, 100%);
+  --bg: hsl(212, 45%, 89%);
+  --clr-txt: hsl(220, 15%, 55%);
+  --clr-accent: hsl(218, 44%, 22%);
+}
+
+
+.main-item {
+  border-radius: 1.2em;
+  width: 20em;
+  text-align: center;
+  background-color: var(--bg-content);
+  padding: 1em;
+  letter-spacing: 0.1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 1.5em var(--bg-content);
+}
+
+.qr-code {
+  border-radius: 0.6em;
+}
+
+.main-item-content {
+  margin: 1.2em;
+}
+
+.txt-accent {
+  font-weight: 700;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: hsl(218, 44%, 22%);
+}
+
+.txt-main {
+  letter-spacing: 0rem;
+  font-weight: 400;
+  color: var(--clr-txt);
+}
