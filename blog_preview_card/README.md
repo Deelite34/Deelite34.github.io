@@ -1,6 +1,7 @@
 # Frontend Mentor - Blog preview card
-[QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
-
+[QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)  
+  
+[live page](https://deelite34.github.io/blog_preview_card/index.html)  
 
 ### Screenshot
 
