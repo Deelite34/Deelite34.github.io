@@ -6,5 +6,6 @@ Exercises provided by frontend mentor
 
 ## Pages
 
-[QR Code](qr_code)
+[QR Code](qr_code)  
+[Blog preview card](blog_preview_card)
 
