@@ -71,6 +71,7 @@ section > h1:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  height:100%;
 }
 
 .cards-container > .card {
